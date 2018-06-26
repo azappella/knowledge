@@ -1,4 +1,4 @@
-## Lists of useless (and sometimes useful) knowledge
+## Document everything
 
 ### Summary
 

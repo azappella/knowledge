@@ -1,7 +1,13 @@
 # Summary
 
 * [introduction](README.md)
-* [bin](bin.md)
-* [reading-lists]
+* bin
+    * awk
+    * docker
+    * find
+    * kubectl
+* reading-lists
     * [economics](reading-lists/economics.md)
-
+* other
+    * [movies](movies.md)
+    * [know-your-user](know-your-user.md)
