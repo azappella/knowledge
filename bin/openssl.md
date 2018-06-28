@@ -4,19 +4,19 @@
 ### Generate private key
 
 ```
-openssl genrsa -out ~/server.key 4096
+openssl genrsa -out ./server.key 4096
 ```
 
 ### Create a CSR (certificate signing request)
 
 ```
-openssl req -new -sha256 -key ~/server.key -out ~/server.csr
+openssl req -new -sha256 -key ./server.key -out ./server.csr
 ```
 
 ### Check your CSR
 
 ```
-openssl req -noout -text -in ~/domain.com.ssl/domain.com.csr
+openssl req -noout -text -in ./server.csr
 ```
 
 ### CSR Fields
@@ -45,8 +45,8 @@ Country                 The two-letter ISO abbreviation for your country.       
 ## Create a CA (certificate authority)
 
 ```
-openssl genrsa -des3 -out ca.key 4096
-openssl req -new -x509 -days 365 -key ca.key -out ca.pem
+openssl genrsa -des3 -out ./ca.key 4096
+openssl req -new -x509 -days 365 -key ./ca.key -out ./ca.pem
 ```
 
 ## Sign a CSR with CA
@@ -54,9 +54,9 @@ openssl req -new -x509 -days 365 -key ca.key -out ca.pem
 ```
 openssl x509 -req \
         -days 365 \
-        -in server.csr \
-        -CA ca.pem \
-        -CAkey ca.key \
+        -in ./server.csr \
+        -CA ./ca.pem \
+        -CAkey ./ca.key \
         -set_serial 01 \
-        -out server.pem
+        -out ./server.pem
 ```
