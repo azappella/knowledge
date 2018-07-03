@@ -27,3 +27,6 @@ the default namespace)
 
     kubectl get services --all-namespaces
 
+## view config
+
+    kubectl config view
