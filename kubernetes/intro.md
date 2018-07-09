@@ -44,6 +44,8 @@ source: https:/​/kubernetes.​io/​docs/​concepts/​workloads/​pods/​
 It is important to know that everything within Kubernetes is run on a private, isolated
 network that is not normally accessible from outside the cluster.
 
-
-
 ## namespaces
+
+pods are collected into namespaces (e.g. to provide quotas, limit resource usage, etc.)
+
+
