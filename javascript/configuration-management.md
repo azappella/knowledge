@@ -45,6 +45,28 @@ $ npm start
 
 Alternatively, use [wtgtybhertgeghgtwtg/env-and-files](https://github.com/wtgtybhertgeghgtwtg/env-and-files) to load env variables and files.
 
+## store config based on runtime environment (à la create-react-app)
+
+Create-react-app automatically reads configuration files for the three pre-defined environments: development, test, and production.
+
+Default (lowest priority) values may be defined in .env, and the value of NODE_ENV is set automatically based on the script used:
+
+```
+start → development
+test → test
+build → production
+```
+
+There is a configuration file corresponding to each of these environments: .env.development, .env.test, and .env.production. The values from these files have higher priority than the values in .env. Each file (including the default file) supports another layer of overrides by adding .local to the end. The full order of precedence is (highest first):
+
+1. shell
+2. .env.{environment}.local
+3. .env.{environment}
+4. .env.local
+5. .env
+
+[Source](https://medium.com/@tacomanator/environments-with-create-react-app-7b645312c09d)
+
 ## store config based on runtime environment
 
 Use [node-config](https://github.com/lorenwest/node-config) package.
@@ -57,3 +79,4 @@ The config folder structure is as follows:
 - custom-environment-variables.js — maps the secret configuration keys to env variables to be later injected at runtime
 
 [Source](https://itnext.io/node-js-configuration-and-secrets-management-acd84375ca7)
+
