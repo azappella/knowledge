@@ -17,7 +17,7 @@ PORT=3000
 SERVER_URL=${PROTOCOL}://${HOST}:${PORT}
 ```
 
-Now, you can start the application with the proper configuration
+Now, you can start the application with the proper configuration, using either of the three following methods
 
 1) using dotenv + dotenv expand in the application
 
