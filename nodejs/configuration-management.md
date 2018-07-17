@@ -15,7 +15,6 @@ HOST=localhost
 PORT=3000
 
 SERVER_URL=${PROTOCOL}://${HOST}:${PORT}
-
 ```
 
 Now, you can start the application with the proper configuration
@@ -24,7 +23,6 @@ Now, you can start the application with the proper configuration
 
 ```
 # as early as possible in your application
-
 const dotenv = require('dotenv')
 const dotenvExpand = require('dotenv-expand')
 
