@@ -35,7 +35,7 @@ Implement a consensus protocol for agreement on the next block to be added to th
 - Broadcast new block
 - Confirm transactions
 
-## refererences
+## references
 
 - [A gentle introduction to blockchain technology](https://bitsonblocks.net/2015/09/09/gentle-introduction-blockchain-technology/)
 - [Minimal Viable Block Chain](https://www.igvita.com/2014/05/05/minimum-viable-block-chain/)
