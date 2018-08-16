@@ -40,3 +40,4 @@ Implement a consensus protocol for agreement on the next block to be added to th
 - [A gentle introduction to blockchain technology](https://bitsonblocks.net/2015/09/09/gentle-introduction-blockchain-technology/)
 - [Minimal Viable Block Chain](https://www.igvita.com/2014/05/05/minimum-viable-block-chain/)
 - [The Blockchain Problem Space](https://blog.ironbay.co/the-blockchain-problem-space-bd94d2babb51)
+- [Cryptoeconomics: Paving the Future of Blockchain Technology](https://hackernoon.com/cryptoeconomics-paving-the-future-of-blockchain-technology-13b04dab971)
