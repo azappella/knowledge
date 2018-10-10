@@ -2,7 +2,6 @@
 
 A curated list of useful (and less useful) things
 
-* [Summary](SUMMARY.md)
 
 ## See also
 
