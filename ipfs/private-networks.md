@@ -1,7 +1,5 @@
 # ipfs
 
-20 USD/year for 100 GB
-
 Are clustered IPFS nodes really the same as a private IPFS swarm?
 
 They are separate features/functionality.
