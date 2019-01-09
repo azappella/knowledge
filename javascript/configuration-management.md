@@ -1,5 +1,7 @@
 # configuration management
 
+see https://www.npmjs.com/package/node-env-run
+
 ## store config in env variables
 
 Configuration should come from [environment variables](https://12factor.net/config)
