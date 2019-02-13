@@ -36,6 +36,20 @@ Host SERVER2
 ```
 
 ## Changing a key's passphrase
+```
+ssh-keygen -f ~/.ssh/id_rsa -p
+```
 
-    ssh-keygen -f ~/.ssh/id_rsa -p
+## check key fingerprint
+```
+ssh-keygen -E md5 -lf <key>
+```
+If you prefer the standard sha256 output
+```
+ssh-keygen -lf <key>
+```
 
+## generate a public key from a private key
+```
+ssh-keygen -y -f ~/.ssh/id_rsa > ~/.ssh/id_rsa.pub
+```
