@@ -23,3 +23,5 @@ on source machine
 ```
 tar cf - FOLDER | nc HOST PORT
 ```
+
+Check `pv` to have progress report
