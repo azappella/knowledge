@@ -1,6 +1,6 @@
 # bash
 
-## bash shebang 
+## bash shebang
 
 ```
 #!/usr/bin/env bash
