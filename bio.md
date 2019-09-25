@@ -1,25 +1,26 @@
-
-
 Andrew Zappella
 
-A Swiss/American programmer/entrepreneur. Co-founder at base7booking, a hotel technology company sold to trivago in 2016.
+I build things for the web.
 
- Before, There, he led  product development & engineering, and helped grow the company
+At the crossroads between product design & development, I like to solve business problems while creating enjoyable experiences.
 
-Co-founder @ base7booking, a travel tech company bought by trivago in 2016.
+Co-founded Suisseo (2009), base7booking (2012, sold to trivago in 2016), and currently a managing partner at Lightstreams (2018).
 
-a company bought by trivago in 2016
+I am an entrepreneur/designer/coder interested in Philosophy/Economics/Blockchain.
+Small projects
 
-Purpose: Ensure base7's product & engineering efforts are aligned with its business goals, while providing help and support to the engineering/product teams, both through code and communication. Provide a high-quality development environment.
-Key responsibilities:
+    Personal knowledge base
+    Webextension for reading tags in firefox
+    A minimal isomorphic starter template for choojs
+    An (now outdated) Laravel Google API Client
 
-    Ensure timely delivery of software projects
-    Build/develop/maintain business-critical applications and software & ensure constant availability of all base7 products (internal tools + external);
-    Provide help and support to the development/product team; ensure technical feasibility of new features
-    Facilitate communication between product and engineering teams & increase team productivity
-    Ensure recruitment/hiring goals are defined and met
+Find me elsewhere
 
-Area of Responsibility: Base7 Engineering
+    Github
+    Linkedin
+    Twitter
+    dev.to
+
 
 Interests
 
