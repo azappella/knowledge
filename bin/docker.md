@@ -1,8 +1,13 @@
 # docker
 
+## pull image
+```
 docker pull image:tag
+```
+## list containers that have been run
+```
 docker ps -a
-
+```
 ## docker run
 
     docker run -it
