@@ -33,6 +33,51 @@ Get-Command *date*
 Get-Help Get-Date
 ```
 
+## Format output
+
+```
+command | Format-Table
+
+command | Format-List
+```
+
+## Equality checks
+
+| Type        | Operators    | Description                                  |
+| ----------- | ------------ | -------------------------------------------- |
+| Equality    | -eq          | equals                                       |
+|             | -ne          | not equals                                   |
+|             | -gt          | greater than                                 |
+|             | -ge          | greater than or equal                        |
+|             | -lt          | less than                                    |
+|             | -le          | less than or equal                           |
+|             |              |                                              |
+| Matching    | -like        | Returns true when string matches wildcard    |
+|             |              | pattern                                      |
+|             | -notlike     | Returns true when string does not match      |
+|             |              | wildcard pattern                             |
+|             | -match       | Returns true when string matches regex       |
+|             |              | pattern; $matches contains matching strings  |
+|             | -notmatch    | Returns true when string does not match      |
+|             |              | regex pattern; $matches contains matching    |
+|             |              | strings                                      |
+|             |              |                                              |
+| Containment | -contains    | Returns true when reference value contained  |
+|             |              | in a collection                              |
+|             | -notcontains | Returns true when reference value not        |
+|             |              | contained in a collection                    |
+|             | -in          | Returns true when test value contained in a  |
+|             |              | collection                                   |
+|             | -notin       | Returns true when test value not contained   |
+|             |              | in a collection                              |
+|             |              |                                              |
+| Replacement | -replace     | Replaces a string pattern                    |
+|             |              |                                              |
+| Type        | -is          | Returns true if both object are the same     |
+|             |              | type                                         |
+|             | -isnot       | Returns true if the objects are not the same |
+|             |              | type
+
 ### Display an objects members (methods, properties, etc.)
 
 ```
