@@ -66,7 +66,7 @@ DateTime    : Friday, March 27, 2020 10:35:50 AM
 
 [Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-date?view=powershell-7)
 
-
+```
 Get-Date
    [[-Date] <DateTime>]
    [-Year <Int32>]
