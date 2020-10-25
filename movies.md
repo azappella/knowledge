@@ -30,6 +30,8 @@
 * Lynne Ramsay (We need to talk about Kevin)
 * Martin Scorsese (Taxi Driver, Raging Bull, Goodfellas, The Departed)
 * F.F. Coppola (Apocalypse Now)
+* Edward Zwick (The Last Samurai, Defiance, Blood Diamond) 
+* Tim Burton (Beetlejuice, Edward Scissorhands, Mars Attack, Big Fish)
 * (Gattaca)
 * (Dark City)
 * (Serenity)
