@@ -22,3 +22,11 @@ sudo certbot \
   -d "*.example.com" \
   --server https://acme-v02.api.letsencrypt.org/directory
 ```
+```
+certbot \
+  --dns-cloudflare \
+  --dns-cloudflare-credentials /home/magento/.secrets/certbot/cloudflare.ini \
+  -i nginx  \
+  -d "example.com" \
+  -d "*.example.com"
+```
