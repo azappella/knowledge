@@ -57,7 +57,12 @@ Host github.com-user2
     IdentityFile ~/.ssh/id_rsa_user2
 ```
 
-Then 
+```
+git clone git@github-org:orgname/some_repository.git
+
+```
+
+## Multiple github users
 
 ```
 git clone git@github.com:user1/example.git example1
