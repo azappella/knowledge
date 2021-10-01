@@ -2,14 +2,14 @@
 
 ### Update hostname
 
-```
+```sh
 echo "server-1" > /etc/hostname
 hostname -F /etc/hostname
 ```
 
 ### Update system's host file
 
-```
+```sh
 vim /etc/hosts
 ```
 
@@ -22,29 +22,38 @@ The `hosts` file creates static  associations between IP addresses and hostnames
 
 ### Configure Timezone
 
-```
+```sh
 sudo dpkg-reconfigure tzdata
 ```
 
 ### Create a user
 
-```
+```sh
 adduser <username>
 ```
 
 ### Add a user to sudo group
 
-```
+```sh
 sudo usermod -aG sudo <username>
 ```
 
 ### Create ssh dir
 
-```
+```sh
 mkdir -p ~/.ssh && sudo chmod -R 700 ~/.ssh/
 ```
 
+### Create authorized_keys file & add public key
 
+```sh
+vim ~/.ssh/authorized_keys
+```
 
+### update ssh folder permissions
+
+```sh
+chmod 644 -f ~/.ssh/*.pub ~/.ssh/authorized_keys ~/.ssh/known_hosts
+```
 
 
