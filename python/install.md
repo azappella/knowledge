@@ -1,6 +1,6 @@
-## python installation
+# python installation
 
-### steps
+## steps
 
 Install pyenv first with pyenv-virtualenv plugin
 
@@ -8,6 +8,18 @@ Install the correct version of python
 
 ```
 pyenv install <version>
+```
+
+## list all versions of python3
+
+```bash
+pyenv install --list | grep "3\.[678]"
+```
+
+## install local version with pip
+
+```
+pyenv local 3.8.13
 ```
 
 ### references

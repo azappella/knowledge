@@ -26,10 +26,17 @@ The `hosts` file creates static  associations between IP addresses and hostnames
 sudo dpkg-reconfigure tzdata
 ```
 
-### Create a user
+### Create a user 
 
+adduser creates the skeleton and home folder (ubuntu) on top of the user 
 ```sh
 adduser <username>
+```
+
+```sh
+ useradd -m -G additional_groups -s login_shell username
+
+ useradd -m -G sudo -s bash andrew
 ```
 
 ### Add a user to sudo group

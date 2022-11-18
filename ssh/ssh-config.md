@@ -1,5 +1,7 @@
 # ssh config
 
+Located in ~/.ssh/config
+
 ## Simple example
 
 ```
@@ -70,6 +72,7 @@ cd example1
 git config user.name "user1"
 git config user.email "user1@example.com" 
 ```
+
 
 ```
 git clone git@github.com:user2/example.git example2
