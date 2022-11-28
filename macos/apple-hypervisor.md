@@ -7,6 +7,20 @@ sysctl kern.hv_support
 
 ```
 
+## Using with qemu
+
+Pass the -accel hvf flag
+
+```
+-accel hvf
+```
+
+e.g.
+
+```
+qemu-system-x86_64 -m 2G -hda ubuntu.20.qcow2 -accel hvf
+```
+
 ## further reading
 
 The Hypervisor framework has the following requirements:
