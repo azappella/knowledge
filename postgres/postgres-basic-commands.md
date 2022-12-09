@@ -29,3 +29,13 @@ pg_hba.conf controls the authentication method
 ```
 \q
 ```
+
+## vertical output
+
+```
+\x on
+SELECT * FROM pg_roles WHERE rolename = CURRENT_ROLE;
+-- Change back to normal output
+\x off
+
+```
