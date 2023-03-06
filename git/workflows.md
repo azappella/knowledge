@@ -8,17 +8,17 @@ git rebase master
 # Now your feature have all the commits from master
 git checkout master #Go back to master
 git merge --ff-only new-feature
-```
-
-```
 git push
 ```
+The ff-only option appends your commits to master cleanly without a merge commit.
 
 If unfortunately someone pushed more code to the remote master while  you are doing this, your push might fail. You can pull, rebase and push  again like so:
 
 ```
 git pull --rebase && git push
 ```
+
+### Script
 
 ```bash
 #!/usr/bin/env bash
