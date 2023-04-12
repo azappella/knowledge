@@ -36,11 +36,11 @@ Use --show to print the hardware time:
 ```
 hwclock --show
 ```
-You can set the hardware clock to the current system time:
+You can set the system clock to the current hardware time:
 ```
 hwclock --hctosys
 ```
-Or the system time to the hardware clock
+Or the hardware time to the system clock
 ```
 hwclock --systohc
 ```
