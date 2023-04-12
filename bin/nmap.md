@@ -6,6 +6,20 @@
 sudo nmap -sP -PS -n 192.168.0.1/24
 ```
 
+## Get a list of valid IPs in a subnet
+
+```
+nmap -sP 192.168.1.*
+```
+
+or 
+
+```
+nmap -sn 192.168.1.0/24
+```
+
+Per the man page "In newer releases of nmap, -sP is known as -sn".
+
 ## more information
 
 ```
