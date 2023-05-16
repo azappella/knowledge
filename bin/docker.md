@@ -17,7 +17,7 @@ docker ps -a
     the -p switch publishes a container's ports to the host (this can be a list of ports)
     the -v switch bind mount a volume
         -v /path/on/host:/path/on/guest
-    the -e switch passes env variables to the container
+    the -e switch passes env variables to the container, e.g. -e "[variable-name]=[new-value]"
 
     the --rm switch automatically removes the container when it exits
 
