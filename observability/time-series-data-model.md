@@ -63,10 +63,6 @@ x
 ...
 ```
 
-
-
-Copy
-
 In this example, you get 9 time series. Each time series is defined by a unique tag set:
 
 ```text
@@ -88,10 +84,6 @@ In this example, you get 9 time series. Each time series is defined by a unique 
 
 9. {name: temperature,  device_id: ghi789,  location_id:  77,  dev_type: roof}
 ```
-
-
-
-Copy
 
 When you have many tag sets, your data has high cardinality. Cardinality is the number of possible distinct values for a field. Some time-series databases have performance problems when cardinality increases. This limits the number of device types and devices you can store in a single database.
 
