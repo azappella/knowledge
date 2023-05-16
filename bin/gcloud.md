@@ -1,5 +1,17 @@
 # gcloud
 
+## installation
+
+Extract the archive, then
+```
+./google-cloud-sdk/install.sh
+```
+
+Initialize
+```
+./google-cloud-sdk/bin/gcloud init
+```
+
 ## change project
 
 ```
@@ -26,4 +38,37 @@ gcloud init
 ```
 gcloud config configurations list
 gcloud config configurations activate [name]
+```
+
+## list accounts whose auth are stored on the system
+
+```
+gcloud auth list
+```
+
+## List properties in your active gcloud CLI config
+
+```
+gcloud config list
+```
+
+## View information about your gcloud CLI installation and the active configuration
+
+```
+gcloud info
+```
+
+## install gcloud components
+
+```
+gcloud components install COMPONENT_ID
+```
+
+Usefuls components
+```
+gcloud components install app-engine-python
+gcloud components install app-engine-python-extras
+gcloud components install cbt
+gcloud components install bigtable
+gcloud components install terraform-tools
 ```
