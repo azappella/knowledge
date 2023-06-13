@@ -70,3 +70,7 @@ Docker API clients default to this address. You do not need to set DOCKER_HOST.
 
 Machine "podman-machine-default" started successfully
 ```
+
+## References
+
+- https://docs.podman.io/en/latest/
