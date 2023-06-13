@@ -72,3 +72,15 @@ gcloud components install cbt
 gcloud components install bigtable
 gcloud components install terraform-tools
 ```
+
+## list machine types by region
+
+```
+gcloud compute machine-types list --filter="zone:( ZONE europe-west6-a )"
+```
+
+## list compute images
+
+```
+gcloud compute images list
+```
