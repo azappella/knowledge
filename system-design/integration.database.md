@@ -45,7 +45,7 @@ From my experience, there is a limit of people who can work  simultaneously on t
 
 ## Characteristics
 
-Companies want to improve their velocity, so let's analyze why and  how microservices can help with that. Properly designed microservices  are:
+Companies want to improve their velocity, so let's analyze why and  how microservices can help with that. Properly designed microservices are:
 
 - well-scoped
 - autonomous
@@ -110,7 +110,7 @@ at the same time, with integration DB we have:
 
 > exposes internal implementation details to clients
 
-The database is a low-level implementation detail of the service that owns it. Clients of that service should not know anything about it. For example, as an owner of a service, you should be able to not only  change any schemas/tables in your database but also change the database  itself if needed. You should freely either upgrade it to a newer version or switch to another provider. It can be achieved only if nobody  expects the microservice that owns that database has access to it,  including binary logs. 
+The database is a low-level implementation detail of the service that owns it. Clients of that service should not know anything about it. For example, as an owner of a service, you should be able to not only change any schemas/tables in your database but also change the database  itself if needed. You should freely either upgrade it to a newer version or switch to another provider. It can be achieved only if nobody  expects the microservice that owns that database has access to it, including binary logs.
 
 Microservices are usually referred to as **shared-nothing** and it's like that for a reason.
 
